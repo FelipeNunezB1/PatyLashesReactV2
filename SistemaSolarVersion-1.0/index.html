@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="image" href="mystyle.css">
+    <meta charset="utf-8" />
+    <link rel="icon" href="./imagenes/eyelashes.png">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Sistema Solar</title>
+
+</head>
+
+    
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-center"
+        style="background-color: #929292;">
+        <nav class="navbar navbar-dark bg-primary">
+        </nav>
+        <a class="navbar-brand" href="#">
+            <img src="./icono SS.png" href="#" width="30" height="30" class="d-inline-block align-top" alt="">
+            Sistema Solar
+        </a>
+        <div class="d-flex ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#colapsaNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="colapsaNavbar">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acercaDeTitulo" style="color: #000000;">A cerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nuestro" style="color: #000000;">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Tour" style="color: #000000;">Tour</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="acercaDeTitulo" id="acercaDeTitulo">
+        <h2>A cerca del sistema solar</h2>
+    </div>
+    <div class="container-card" id="container">
+        <div class="card">
+            <figure>
+                <img src="./sistemas.jpg">
+            </figure>
+            <div class="contenido-card">
+                <p>El sistema solar​ es el sistema planetario
+                     que liga gravitacionalmente a un conjunto de objetos
+                      astronómicos que giran directa o indirectamente en una órbita alrededor 
+                      de una única estrella conocida con el nombre de Sol.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="titulo-card" id="nuestro">
+        <h2>Galeria sistema solar</h2>
+    </div>
+    <div class="container-card" id="container">
+        <div class="card">
+            <figure>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/42/Solar_prominence_from_STEREO_spacecraft_September_29%2C_2008.jpg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Sol</h3>
+                <p>Una estrella de tipo espectral G2 que contiene más del 99,86 %
+                    de la masa del sistema. Con un diámetro de 1 400 000 km, se compone
+                    de un 75 % de hidrógeno, un 20 % de helio y 5 % de oxígeno, carbono,
+                    hierro y otros elementos.</p>
+                <a href="https://es.wikipedia.org/wiki/Sol" target="_blank">Leer Mas</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Montagem_Sistema_Solar.jpg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Planetas</h3>
+                <p>Divididos en planetas interiores (también llamados terrestres o telúricos)
+                    y planetas exteriores o gigantes. Entre estos últimos, Júpiter y Saturno
+                    se denominan gigantes gaseosos, mientras que Urano y Neptuno suelen
+                    nombrarse gigantes helados. Todos los planetas gigantes tienen
+                    a su alrededor anillos. </p>
+                <a href="https://es.wikipedia.org/wiki/Planeta" target="_blank">Leer Mas</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Pluto_system_2006_es.jpg">
+            </figure>
+            <div class="contenido-card">
+                <h3>Planetas enanos</h3>
+                <p>Son cuerpos cuya masa les permite tener forma esférica,
+                    pero no es la suficiente como para haber atraído o expulsado
+                    a todos los cuerpos a su alrededor. Son: Plutón
+                    (hasta 2006 era considerado el noveno planeta del sistema solar)</p>
+                <a href="https://es.wikipedia.org/wiki/Planeta_enano" target="_blank">Leer Mas</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Tour-card" id="Tour">
+        <h2>Tour</h2>
+    </div>
+    <div class="TourFoto">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Solar_sys.jpg/1280px-Solar_sys.jpg"
+            alt="logoPatyLashes" width="1100" height="600" usemap="#sistema-solar" class="responsive">
+    </div>
+
+    <map name="sistema-solar">
+        <area shape="CIRCLE" coords="600,400, 100" target="_blank" href="https://es.wikipedia.org/wiki/Sol"
+            onclick="funcAlert()">
+    </map>
+
+    <script>
+        function funcAlert() {
+            alert("Has elegido el sol!");
+        }
+    </script>
+</body>
+
+<footer>
+    <nav class="navbar fixed-bottom justify-content-center " style="background-color: #929292; ">
+        <nav class="navbar navbar-dark bg-primary">
+
+        </nav>
+</footer>
+</html>
